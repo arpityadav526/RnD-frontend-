@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Dashboard from './dashboard';
-import AuthPage from './AuthPage';
+import AuthPage from './Authpage.jsx'
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
